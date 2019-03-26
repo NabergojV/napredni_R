@@ -56,13 +56,16 @@ odpadki_regije <- odpadki_regije[-seq(1,nrow(odpadki_regije),4),]
 
 
 # uvoz tabele odpadki EU
-stolpci3 <- c("TIME","GEO","UNIT","HAZARD","WASTE","NACE_R2","Value")
+stolpci3 <- c("Leto","Drzava","UNIT","Nevarnost","Vrsta","NACE_R2","Kolicina")
 odpadki_EU <- read.csv2("odpadki_EU.csv", 
                         header = TRUE,
                         sep = ",",
-                        na.strings = "-",
+                        na.strings = ":",
                         col.names = stolpci3,
                         fileEncoding = "UTF-8")[,-c(3,6)]
+
+# odpravimo vejice pri tisočicah
+odpadki_EU$Kolicina <- as.numeric(gsub(",", "", odpadki_EU$Kolicina, fixed = TRUE)) 
 
 # http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do
 
