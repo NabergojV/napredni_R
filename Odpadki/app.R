@@ -2,6 +2,7 @@
 library(shiny)
 library(ggplot2)
 library(shinythemes)
+library(dplyr)
 
 source("uvoz_podatkov_odpadki.R")
 
