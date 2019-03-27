@@ -1,10 +1,10 @@
 library(knitr)
 library(dplyr)
-library(gsubfn)
 library(ggplot2)
-library(rvest)
-library(XML)
-library(readr)
+#library(gsubfn)
+#library(rvest)
+#library(XML)
+#library(readr)
 
 # uvoz tabele vrste odpadkov
 
@@ -37,7 +37,10 @@ nastanek_odpadkov <- unique(odpadki_vrste$Nastanek)
 
 # https://pxweb.stat.si/pxweb/Dialog/SaveShow.asp
 
+#-----------------------------------------------------------------------
+
 # uvoz tabele odpadki po regijah
+
 stolpci2 <- c("Regija", "Leto", "Odpadki", "Kolicina_tona")
 odpadki_regije <- read.csv2("odpadki_regije.csv", 
                            skip = 3, 
@@ -51,11 +54,17 @@ odpadki_regije <- odpadki_regije[-seq(1,nrow(odpadki_regije),33),]
 odpadki_regije <- uredi(odpadki_regije, 1,2,3)
 odpadki_regije <- odpadki_regije[-seq(1,nrow(odpadki_regije),4),]
 
-# uredimo imena
-#odpadki_regije$Odpadki <- gsub("\\s*\\w*$", "", odpadki_regije$Odpadki)
+regije <- unique(odpadki_regije$Regija)
+odpadki_regije_vrste <- unique(odpadki_regije$Odpadki)
 
+# uredimo imena (odstranimo besedo (tone) na koncu)
+odpadki_regije$Odpadki <- sapply(strsplit(as.character(odpadki_regije$Odpadki), split=" (", fixed=TRUE), 
+                                 function(x) x[1])
+
+#-----------------------------------------------------------------------
 
 # uvoz tabele odpadki EU
+
 stolpci3 <- c("Leto","Drzava","UNIT","Nevarnost","Vrsta","NACE_R2","Kolicina")
 odpadki_EU <- read.csv2("odpadki_EU.csv", 
                         header = TRUE,

@@ -31,8 +31,10 @@ ui <- fluidPage(theme = shinytheme("superhero"),
                               selected = vrste_odpadkov[1],
                               multiple = TRUE),
                   hr(),
-                  actionButton("gumb1","Graf"),
-                  actionButton("gumb2","Tabela")
+                  actionButton("gumb1","Graf" , icon("chart-bar"), 
+                               style="color: #fff; background-color: #337ab7; border-color: #2e6da4"),
+                  actionButton("gumb2","Tabela", icon("table"),
+                               style="color: #fff; background-color: orange")
                 ),
                 
                 mainPanel(

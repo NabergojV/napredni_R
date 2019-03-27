@@ -2,7 +2,7 @@
 "SEZNAM ODPADKOV, MERITVE , LETO"
 
 "Seznam odpadkov - SKUPAJ"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";756846
 " ";" ";"2003";785952
 " ";" ";"2004";788601
@@ -19,7 +19,7 @@
 " ";" ";"2015";943695
 " ";" ";"2016";971027
 " ";" ";"2017";1003836
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";571183
 " ";" ";"2003";584813
 " ";" ";"2004";608178
@@ -36,7 +36,7 @@
 " ";" ";"2015";550627
 " ";" ";"2016";564758
 " ";" ";"2017";590871
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";185663
 " ";" ";"2003";201139
 " ";" ";"2004";180422
@@ -53,7 +53,7 @@
 " ";" ";"2015";378834
 " ";" ";"2016";394758
 " ";" ";"2017";396280
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";754530
 " ";" ";"2003";785232
 " ";" ";"2004";787754
@@ -70,7 +70,7 @@
 " ";" ";"2015";858516
 " ";" ";"2016";943279
 " ";" ";"2017";975267
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";2317
 " ";" ";"2003";720
 " ";" ";"2004";847
@@ -87,8 +87,8 @@
 " ";" ";"2015";72130
 " ";" ";"2016";10877
 " ";" ";"2017";16703
-"1501 EMBALA?A VKLJU?NO Z LO?ENO ZBRANO EMB."
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"1501 Embalaza VKLJUCNO Z LOCENO ZBRANO EMB."
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";12369
 " ";" ";"2003";19106
 " ";" ";"2004";25125
@@ -105,7 +105,7 @@
 " ";" ";"2015";278938
 " ";" ";"2016";241377
 " ";" ";"2017";274317
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";3767
 " ";" ";"2003";8689
 " ";" ";"2004";14557
@@ -122,7 +122,7 @@
 " ";" ";"2015";110950
 " ";" ";"2016";110507
 " ";" ";"2017";114794
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";8602
 " ";" ";"2003";10417
 " ";" ";"2004";10567
@@ -139,7 +139,7 @@
 " ";" ";"2015";164309
 " ";" ";"2016";125611
 " ";" ";"2017";153606
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -156,7 +156,7 @@
 " ";" ";"2015";221599
 " ";" ";"2016";233569
 " ";" ";"2017";265058
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -173,8 +173,8 @@
 " ";" ";"2015";52123
 " ";" ";"2016";1911
 " ";" ";"2017";4721
-"150101 Papirna in kartonska embala?a"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150101 Papirna in kartonska embalaza"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";3167
 " ";" ";"2003";6211
 " ";" ";"2004";9193
@@ -191,7 +191,7 @@
 " ";" ";"2015";80508
 " ";" ";"2016";75019
 " ";" ";"2017";89110
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -208,7 +208,7 @@
 " ";" ";"2015";12142
 " ";" ";"2016";11194
 " ";" ";"2017";11672
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -225,7 +225,7 @@
 " ";" ";"2015";68306
 " ";" ";"2016";63800
 " ";" ";"2017";77268
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";3167
 " ";" ";"2003";6211
 " ";" ";"2004";9193
@@ -242,7 +242,7 @@
 " ";" ";"2015";49345
 " ";" ";"2016";74247
 " ";" ";"2017";86269
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -259,8 +259,8 @@
 " ";" ";"2015";30992
 " ";" ";"2016";702
 " ";" ";"2017";1920
-"150102 Plasti?na embala?a"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150102 Plasticna embalaza"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";1274
 " ";" ";"2003";1287
 " ";" ";"2004";2603
@@ -277,7 +277,7 @@
 " ";" ";"2015";24242
 " ";" ";"2016";18940
 " ";" ";"2017";26743
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -294,7 +294,7 @@
 " ";" ";"2015";953
 " ";" ";"2016";1052
 " ";" ";"2017";1125
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -311,7 +311,7 @@
 " ";" ";"2015";22960
 " ";" ";"2016";17506
 " ";" ";"2017";25366
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";1262
 " ";" ";"2003";1287
 " ";" ";"2004";2603
@@ -328,7 +328,7 @@
 " ";" ";"2015";15874
 " ";" ";"2016";18584
 " ";" ";"2017";25515
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";12
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -345,8 +345,8 @@
 " ";" ";"2015";7924
 " ";" ";"2016";63
 " ";" ";"2017";772
-"150103 Lesena embala?a"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150103 Lesena embalaza"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";1065
 " ";" ";"2003";942
 " ";" ";"2004";867
@@ -363,7 +363,7 @@
 " ";" ";"2015";20218
 " ";" ";"2016";16551
 " ";" ";"2017";20296
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -380,7 +380,7 @@
 " ";" ";"2015";1036
 " ";" ";"2016";791
 " ";" ";"2017";723
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -397,7 +397,7 @@
 " ";" ";"2015";19146
 " ";" ";"2016";15618
 " ";" ";"2017";19267
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";1065
 " ";" ";"2003";942
 " ";" ";"2004";850
@@ -414,7 +414,7 @@
 " ";" ";"2015";19343
 " ";" ";"2016";16366
 " ";" ";"2017";18480
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";17
@@ -431,8 +431,8 @@
 " ";" ";"2015";382
 " ";" ";"2016";81
 " ";" ";"2017";1172
-"150104 Kovinska embala?a"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150104 Kovinska embalaza"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";381
 " ";" ";"2003";248
 " ";" ";"2004";1035
@@ -449,7 +449,7 @@
 " ";" ";"2015";8029
 " ";" ";"2016";4516
 " ";" ";"2017";5248
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -466,7 +466,7 @@
 " ";" ";"2015";216
 " ";" ";"2016";229
 " ";" ";"2017";126
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -483,7 +483,7 @@
 " ";" ";"2015";7780
 " ";" ";"2016";4250
 " ";" ";"2017";4976
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";381
 " ";" ";"2003";248
 " ";" ";"2004";1035
@@ -500,7 +500,7 @@
 " ";" ";"2015";6670
 " ";" ";"2016";4268
 " ";" ";"2017";5048
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -517,8 +517,8 @@
 " ";" ";"2015";1130
 " ";" ";"2016";33
 " ";" ";"2017";92
-"150105 Sestavljena embala?a"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150105 Sestavljena embalaza"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";81
 " ";" ";"2003";31
 " ";" ";"2004";21
@@ -535,7 +535,7 @@
 " ";" ";"2015";2023
 " ";" ";"2016";1048
 " ";" ";"2017";1876
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -552,7 +552,7 @@
 " ";" ";"2015";0
 " ";" ";"2016";0
 " ";" ";"2017";1
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -569,7 +569,7 @@
 " ";" ";"2015";2023
 " ";" ";"2016";1046
 " ";" ";"2017";1869
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";81
 " ";" ";"2003";31
 " ";" ";"2004";21
@@ -586,7 +586,7 @@
 " ";" ";"2015";1659
 " ";" ";"2016";979
 " ";" ";"2017";1843
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -603,8 +603,8 @@
 " ";" ";"2015";266
 " ";" ";"2016";66
 " ";" ";"2017";10
-"150106 Me?ana embala?a"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150106 Mesana embalaza"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";4472
 " ";" ";"2003";6802
 " ";" ";"2004";5182
@@ -621,7 +621,7 @@
 " ";" ";"2015";97747
 " ";" ";"2016";90180
 " ";" ";"2017";94876
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -638,7 +638,7 @@
 " ";" ";"2015";68155
 " ";" ";"2016";70578
 " ";" ";"2017";73581
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -655,7 +655,7 @@
 " ";" ";"2015";26607
 " ";" ";"2016";15418
 " ";" ";"2017";16706
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";4472
 " ";" ";"2003";6802
 " ";" ";"2004";5182
@@ -672,7 +672,7 @@
 " ";" ";"2015";94586
 " ";" ";"2016";85261
 " ";" ";"2017";93051
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -689,8 +689,8 @@
 " ";" ";"2015";0
 " ";" ";"2016";-
 " ";" ";"2017";-
-"150107 Steklena embala?a"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150107 Steklena embalaza"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";1798
 " ";" ";"2003";3452
 " ";" ";"2004";6141
@@ -707,7 +707,7 @@
 " ";" ";"2015";44524
 " ";" ";"2016";33974
 " ";" ";"2017";34827
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -724,7 +724,7 @@
 " ";" ";"2015";28016
 " ";" ";"2016";26614
 " ";" ";"2017";27518
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -741,7 +741,7 @@
 " ";" ";"2015";16291
 " ";" ";"2016";6879
 " ";" ";"2017";6964
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";1709
 " ";" ";"2003";3452
 " ";" ";"2004";6141
@@ -758,7 +758,7 @@
 " ";" ";"2015";32605
 " ";" ";"2016";32765
 " ";" ";"2017";33606
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";88
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -775,8 +775,8 @@
 " ";" ";"2015";11351
 " ";" ";"2016";964
 " ";" ";"2017";756
-"150109 Embala?a iz tekstila"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150109 Embalaza iz tekstila"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";20
 " ";" ";"2003";26
 " ";" ";"2004";1
@@ -793,7 +793,7 @@
 " ";" ";"2015";3
 " ";" ";"2016";93
 " ";" ";"2017";83
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -810,7 +810,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -827,7 +827,7 @@
 " ";" ";"2015";3
 " ";" ";"2016";93
 " ";" ";"2017";83
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";20
 " ";" ";"2003";26
 " ";" ";"2004";1
@@ -844,7 +844,7 @@
 " ";" ";"2015";3
 " ";" ";"2016";90
 " ";" ";"2017";83
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -861,8 +861,8 @@
 " ";" ";"2015";-
 " ";" ";"2016";3
 " ";" ";"2017";-
-"150110 Embala?a ones. z nevarnimi snovmi"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"150110 Embalaza ones. z nevarnimi snovmi"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";103
 " ";" ";"2003";101
 " ";" ";"2004";76
@@ -879,7 +879,7 @@
 " ";" ";"2015";1172
 " ";" ";"2016";1010
 " ";" ";"2017";1222
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -896,7 +896,7 @@
 " ";" ";"2015";34
 " ";" ";"2016";23
 " ";" ";"2017";28
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -913,7 +913,7 @@
 " ";" ";"2015";1132
 " ";" ";"2016";981
 " ";" ";"2017";1093
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";103
 " ";" ";"2003";101
 " ";" ";"2004";76
@@ -930,7 +930,7 @@
 " ";" ";"2015";1114
 " ";" ";"2016";963
 " ";" ";"2017";1133
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -948,7 +948,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "150111 Kovinska emb. z nev. trdnim oklepom"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";8
 " ";" ";"2003";7
 " ";" ";"2004";6
@@ -965,7 +965,7 @@
 " ";" ";"2015";473
 " ";" ";"2016";46
 " ";" ";"2017";35
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -982,7 +982,7 @@
 " ";" ";"2015";398
 " ";" ";"2016";25
 " ";" ";"2017";20
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -999,7 +999,7 @@
 " ";" ";"2015";60
 " ";" ";"2016";20
 " ";" ";"2017";15
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";8
 " ";" ";"2003";7
 " ";" ";"2004";6
@@ -1016,7 +1016,7 @@
 " ";" ";"2015";401
 " ";" ";"2016";46
 " ";" ";"2017";30
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1033,8 +1033,8 @@
 " ";" ";"2015";66
 " ";" ";"2016";-
 " ";" ";"2017";-
-"2001 LO?ENO ZBRANE FRAKCIJE"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"2001 LOCENO ZBRANE FRAKCIJE"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";40847
 " ";" ";"2003";73230
 " ";" ";"2004";42458
@@ -1051,7 +1051,7 @@
 " ";" ";"2015";212508
 " ";" ";"2016";249255
 " ";" ";"2017";278223
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";26514
 " ";" ";"2003";33278
 " ";" ";"2004";31655
@@ -1068,7 +1068,7 @@
 " ";" ";"2015";89142
 " ";" ";"2016";99089
 " ";" ";"2017";139686
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";14332
 " ";" ";"2003";39952
 " ";" ";"2004";10803
@@ -1085,7 +1085,7 @@
 " ";" ";"2015";121631
 " ";" ";"2016";147837
 " ";" ";"2017";134152
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1102,7 +1102,7 @@
 " ";" ";"2015";189881
 " ";" ";"2016";235720
 " ";" ";"2017";263599
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1120,7 +1120,7 @@
 " ";" ";"2016";8965
 " ";" ";"2017";11982
 "200101 Papir ter karton in lepenka"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";12943
 " ";" ";"2003";17994
 " ";" ";"2004";12855
@@ -1137,7 +1137,7 @@
 " ";" ";"2015";90627
 " ";" ";"2016";107423
 " ";" ";"2017";108367
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1154,7 +1154,7 @@
 " ";" ";"2015";31784
 " ";" ";"2016";31263
 " ";" ";"2017";37308
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1171,7 +1171,7 @@
 " ";" ";"2015";58384
 " ";" ";"2016";75976
 " ";" ";"2017";70819
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";12943
 " ";" ";"2003";17994
 " ";" ";"2004";12855
@@ -1188,7 +1188,7 @@
 " ";" ";"2015";74197
 " ";" ";"2016";98886
 " ";" ";"2017";100860
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1206,7 +1206,7 @@
 " ";" ";"2016";7595
 " ";" ";"2017";7248
 "200102 Steklo"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";3104
 " ";" ";"2003";4226
 " ";" ";"2004";1622
@@ -1223,7 +1223,7 @@
 " ";" ";"2015";1862
 " ";" ";"2016";3324
 " ";" ";"2017";3734
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1240,7 +1240,7 @@
 " ";" ";"2015";1299
 " ";" ";"2016";1618
 " ";" ";"2017";1780
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1257,7 +1257,7 @@
 " ";" ";"2015";475
 " ";" ";"2016";1665
 " ";" ";"2017";1842
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";3071
 " ";" ";"2003";4226
 " ";" ";"2004";1589
@@ -1274,7 +1274,7 @@
 " ";" ";"2015";1754
 " ";" ";"2016";3124
 " ";" ";"2017";3266
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";33
 " ";" ";"2003";-
 " ";" ";"2004";33
@@ -1292,7 +1292,7 @@
 " ";" ";"2016";97
 " ";" ";"2017";292
 "200108 Biorazgrad. kuhinjski odpadki in odpadki iz restav."
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";4956
 " ";" ";"2003";11158
 " ";" ";"2004";7564
@@ -1309,7 +1309,7 @@
 " ";" ";"2015";54334
 " ";" ";"2016";58508
 " ";" ";"2017";59394
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1326,7 +1326,7 @@
 " ";" ";"2015";21438
 " ";" ";"2016";26980
 " ";" ";"2017";30708
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1343,7 +1343,7 @@
 " ";" ";"2015";32864
 " ";" ";"2016";30409
 " ";" ";"2017";28526
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";4956
 " ";" ";"2003";11158
 " ";" ";"2004";7564
@@ -1360,7 +1360,7 @@
 " ";" ";"2015";52887
 " ";" ";"2016";58353
 " ";" ";"2017";57175
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1377,8 +1377,8 @@
 " ";" ";"2015";315
 " ";" ";"2016";-
 " ";" ";"2017";1893
-"200110 Obla?ila"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200110 Oblacila"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";72
 " ";" ";"2003";125
 " ";" ";"2004";264
@@ -1395,7 +1395,7 @@
 " ";" ";"2015";1528
 " ";" ";"2016";1784
 " ";" ";"2017";1624
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1412,7 +1412,7 @@
 " ";" ";"2015";853
 " ";" ";"2016";885
 " ";" ";"2017";867
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1429,7 +1429,7 @@
 " ";" ";"2015";662
 " ";" ";"2016";897
 " ";" ";"2017";751
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";72
 " ";" ";"2003";125
 " ";" ";"2004";264
@@ -1446,7 +1446,7 @@
 " ";" ";"2015";888
 " ";" ";"2016";1668
 " ";" ";"2017";1463
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";0
@@ -1464,7 +1464,7 @@
 " ";" ";"2016";115
 " ";" ";"2017";135
 "200111 Tekstil"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";1165
 " ";" ";"2003";1582
 " ";" ";"2004";1110
@@ -1481,7 +1481,7 @@
 " ";" ";"2015";625
 " ";" ";"2016";490
 " ";" ";"2017";445
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1498,7 +1498,7 @@
 " ";" ";"2015";465
 " ";" ";"2016";365
 " ";" ";"2017";309
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1515,7 +1515,7 @@
 " ";" ";"2015";122
 " ";" ";"2016";61
 " ";" ";"2017";45
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";348
 " ";" ";"2003";949
 " ";" ";"2004";1069
@@ -1532,7 +1532,7 @@
 " ";" ";"2015";542
 " ";" ";"2016";301
 " ";" ";"2017";440
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";817
 " ";" ";"2003";633
 " ";" ";"2004";41
@@ -1550,7 +1550,7 @@
 " ";" ";"2016";98
 " ";" ";"2017";5
 "200113 Topila"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";17
 " ";" ";"2003";8
 " ";" ";"2004";7
@@ -1567,7 +1567,7 @@
 " ";" ";"2015";760
 " ";" ";"2016";43
 " ";" ";"2017";27
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1584,7 +1584,7 @@
 " ";" ";"2015";759
 " ";" ";"2016";40
 " ";" ";"2017";25
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1601,7 +1601,7 @@
 " ";" ";"2015";1
 " ";" ";"2016";3
 " ";" ";"2017";1
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";17
 " ";" ";"2003";8
 " ";" ";"2004";7
@@ -1618,7 +1618,7 @@
 " ";" ";"2015";760
 " ";" ";"2016";43
 " ";" ";"2017";23
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1636,7 +1636,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200114 Kisline"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";5
 " ";" ";"2003";4
 " ";" ";"2004";4
@@ -1653,7 +1653,7 @@
 " ";" ";"2015";4
 " ";" ";"2016";5
 " ";" ";"2017";7
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1670,7 +1670,7 @@
 " ";" ";"2015";3
 " ";" ";"2016";3
 " ";" ";"2017";1
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1687,7 +1687,7 @@
 " ";" ";"2015";1
 " ";" ";"2016";1
 " ";" ";"2017";5
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";5
 " ";" ";"2003";4
 " ";" ";"2004";4
@@ -1704,7 +1704,7 @@
 " ";" ";"2015";3
 " ";" ";"2016";4
 " ";" ";"2017";6
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1722,7 +1722,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200115 Alkalije"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";4
 " ";" ";"2003";9
 " ";" ";"2004";1
@@ -1739,7 +1739,7 @@
 " ";" ";"2015";2
 " ";" ";"2016";2
 " ";" ";"2017";1
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1756,7 +1756,7 @@
 " ";" ";"2015";2
 " ";" ";"2016";2
 " ";" ";"2017";1
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1773,7 +1773,7 @@
 " ";" ";"2015";0
 " ";" ";"2016";-
 " ";" ";"2017";0
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";4
 " ";" ";"2003";9
 " ";" ";"2004";1
@@ -1790,7 +1790,7 @@
 " ";" ";"2015";2
 " ";" ";"2016";2
 " ";" ";"2017";1
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1808,7 +1808,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200117 Fotokemikalije"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";2
 " ";" ";"2003";3
 " ";" ";"2004";2
@@ -1825,7 +1825,7 @@
 " ";" ";"2015";22
 " ";" ";"2016";-
 " ";" ";"2017";0
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1842,7 +1842,7 @@
 " ";" ";"2015";22
 " ";" ";"2016";-
 " ";" ";"2017";0
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1859,7 +1859,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";2
 " ";" ";"2003";3
 " ";" ";"2004";2
@@ -1876,7 +1876,7 @@
 " ";" ";"2015";22
 " ";" ";"2016";-
 " ";" ";"2017";0
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1894,7 +1894,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200119 Pesticidi"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";27
 " ";" ";"2003";27
 " ";" ";"2004";25
@@ -1911,7 +1911,7 @@
 " ";" ";"2015";240
 " ";" ";"2016";44
 " ";" ";"2017";55
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1928,7 +1928,7 @@
 " ";" ";"2015";212
 " ";" ";"2016";18
 " ";" ";"2017";22
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1945,7 +1945,7 @@
 " ";" ";"2015";11
 " ";" ";"2016";6
 " ";" ";"2017";6
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";27
 " ";" ";"2003";27
 " ";" ";"2004";25
@@ -1962,7 +1962,7 @@
 " ";" ";"2015";220
 " ";" ";"2016";20
 " ";" ";"2017";27
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -1979,8 +1979,8 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200121 Fluorescentne cevi z ?ivim sreb."
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200121 Fluorescentne cevi z zivim sreb."
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";10
 " ";" ";"2003";8
 " ";" ";"2004";6
@@ -1997,7 +1997,7 @@
 " ";" ";"2015";697
 " ";" ";"2016";156
 " ";" ";"2017";126
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2014,7 +2014,7 @@
 " ";" ";"2015";542
 " ";" ";"2016";36
 " ";" ";"2017";24
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2031,7 +2031,7 @@
 " ";" ";"2015";151
 " ";" ";"2016";117
 " ";" ";"2017";85
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";10
 " ";" ";"2003";8
 " ";" ";"2004";6
@@ -2048,7 +2048,7 @@
 " ";" ";"2015";583
 " ";" ";"2016";154
 " ";" ";"2017";87
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2065,8 +2065,8 @@
 " ";" ";"2015";107
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200123 Zavr?ena oprema z klorofluorooglj."
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200123 Zavrzena oprema z klorofluorooglj."
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";2
 " ";" ";"2003";8
 " ";" ";"2004";143
@@ -2083,7 +2083,7 @@
 " ";" ";"2015";1207
 " ";" ";"2016";1636
 " ";" ";"2017";1958
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2100,7 +2100,7 @@
 " ";" ";"2015";931
 " ";" ";"2016";1283
 " ";" ";"2017";1464
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2117,7 +2117,7 @@
 " ";" ";"2015";269
 " ";" ";"2016";318
 " ";" ";"2017";409
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";2
 " ";" ";"2003";8
 " ";" ";"2004";143
@@ -2134,7 +2134,7 @@
 " ";" ";"2015";1171
 " ";" ";"2016";1507
 " ";" ";"2017";1630
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2152,7 +2152,7 @@
 " ";" ";"2016";79
 " ";" ";"2017";235
 "200125 Jedilno olje in masti"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";150
 " ";" ";"2003";181
 " ";" ";"2004";241
@@ -2169,7 +2169,7 @@
 " ";" ";"2015";2383
 " ";" ";"2016";3117
 " ";" ";"2017";3060
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2186,7 +2186,7 @@
 " ";" ";"2015";232
 " ";" ";"2016";137
 " ";" ";"2017";153
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2203,7 +2203,7 @@
 " ";" ";"2015";2124
 " ";" ";"2016";2927
 " ";" ";"2017";2765
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";130
 " ";" ";"2003";101
 " ";" ";"2004";175
@@ -2220,7 +2220,7 @@
 " ";" ";"2015";434
 " ";" ";"2016";2692
 " ";" ";"2017";1179
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";20
 " ";" ";"2003";80
 " ";" ";"2004";66
@@ -2238,7 +2238,7 @@
 " ";" ";"2016";340
 " ";" ";"2017";1765
 "200126 Olje in masti, ki niso v  200125"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";84
 " ";" ";"2003";62
 " ";" ";"2004";84
@@ -2255,7 +2255,7 @@
 " ";" ";"2015";229
 " ";" ";"2016";218
 " ";" ";"2017";180
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2272,7 +2272,7 @@
 " ";" ";"2015";206
 " ";" ";"2016";193
 " ";" ";"2017";149
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2289,7 +2289,7 @@
 " ";" ";"2015";22
 " ";" ";"2016";25
 " ";" ";"2017";26
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";84
 " ";" ";"2003";62
 " ";" ";"2004";84
@@ -2306,7 +2306,7 @@
 " ";" ";"2015";211
 " ";" ";"2016";218
 " ";" ";"2017";148
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2324,7 +2324,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200127 Barve, lepila in smole z nevar. sn."
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";72
 " ";" ";"2003";95
 " ";" ";"2004";116
@@ -2341,7 +2341,7 @@
 " ";" ";"2015";975
 " ";" ";"2016";1156
 " ";" ";"2017";852
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2358,7 +2358,7 @@
 " ";" ";"2015";793
 " ";" ";"2016";989
 " ";" ";"2017";781
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2375,7 +2375,7 @@
 " ";" ";"2015";129
 " ";" ";"2016";114
 " ";" ";"2017";26
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";72
 " ";" ";"2003";95
 " ";" ";"2004";116
@@ -2392,7 +2392,7 @@
 " ";" ";"2015";926
 " ";" ";"2016";1121
 " ";" ";"2017";759
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2410,7 +2410,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200128 Barve, lepila in smole, ki niso zajeti v 20 01 27"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";39
 " ";" ";"2003";68
 " ";" ";"2004";46
@@ -2427,7 +2427,7 @@
 " ";" ";"2015";173
 " ";" ";"2016";162
 " ";" ";"2017";187
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2444,7 +2444,7 @@
 " ";" ";"2015";99
 " ";" ";"2016";73
 " ";" ";"2017";160
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2461,7 +2461,7 @@
 " ";" ";"2015";2
 " ";" ";"2016";29
 " ";" ";"2017";6
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";39
 " ";" ";"2003";68
 " ";" ";"2004";46
@@ -2478,7 +2478,7 @@
 " ";" ";"2015";113
 " ";" ";"2016";134
 " ";" ";"2017";180
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2495,8 +2495,8 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200129 ?istila (detergenti) z nev. snovmi"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200129 Cistila (detergenti) z nev. snovmi"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";9
 " ";" ";"2003";9
 " ";" ";"2004";8
@@ -2513,7 +2513,7 @@
 " ";" ";"2015";494
 " ";" ";"2016";64
 " ";" ";"2017";55
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2530,7 +2530,7 @@
 " ";" ";"2015";482
 " ";" ";"2016";50
 " ";" ";"2017";44
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2547,7 +2547,7 @@
 " ";" ";"2015";4
 " ";" ";"2016";6
 " ";" ";"2017";5
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";9
 " ";" ";"2003";9
 " ";" ";"2004";8
@@ -2564,7 +2564,7 @@
 " ";" ";"2015";486
 " ";" ";"2016";58
 " ";" ";"2017";34
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2581,8 +2581,8 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200130 ?istila, ki niso zajeta v 20 01 29"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200130 Cistila, ki niso zajeta v 20 01 29"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";4
 " ";" ";"2003";5
 " ";" ";"2004";7
@@ -2599,7 +2599,7 @@
 " ";" ";"2015";1
 " ";" ";"2016";1
 " ";" ";"2017";1
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2616,7 +2616,7 @@
 " ";" ";"2015";0
 " ";" ";"2016";0
 " ";" ";"2017";0
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2633,7 +2633,7 @@
 " ";" ";"2015";0
 " ";" ";"2016";0
 " ";" ";"2017";0
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";4
 " ";" ";"2003";5
 " ";" ";"2004";7
@@ -2650,7 +2650,7 @@
 " ";" ";"2015";0
 " ";" ";"2016";0
 " ";" ";"2017";0
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2668,7 +2668,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200131 Citotoks. in citostat. zdravila"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";6
 " ";" ";"2003";6
 " ";" ";"2004";8
@@ -2685,7 +2685,7 @@
 " ";" ";"2015";5
 " ";" ";"2016";4
 " ";" ";"2017";4
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2702,7 +2702,7 @@
 " ";" ";"2015";2
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2719,7 +2719,7 @@
 " ";" ";"2015";0
 " ";" ";"2016";0
 " ";" ";"2017";0
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";6
 " ";" ";"2003";6
 " ";" ";"2004";8
@@ -2736,7 +2736,7 @@
 " ";" ";"2015";1
 " ";" ";"2016";0
 " ";" ";"2017";0
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2754,7 +2754,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200132 Zdravila, ki niso zajeta v 20 01 31"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";5
 " ";" ";"2003";5
 " ";" ";"2004";3
@@ -2771,7 +2771,7 @@
 " ";" ";"2015";321
 " ";" ";"2016";201
 " ";" ";"2017";121
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2788,7 +2788,7 @@
 " ";" ";"2015";210
 " ";" ";"2016";18
 " ";" ";"2017";13
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2805,7 +2805,7 @@
 " ";" ";"2015";111
 " ";" ";"2016";183
 " ";" ";"2017";102
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";5
 " ";" ";"2003";5
 " ";" ";"2004";3
@@ -2822,7 +2822,7 @@
 " ";" ";"2015";305
 " ";" ";"2016";201
 " ";" ";"2017";113
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2840,7 +2840,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200133 Bat.,akumul. ter nesort. bat.,akum."
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";250
 " ";" ";"2003";211
 " ";" ";"2004";206
@@ -2857,7 +2857,7 @@
 " ";" ";"2015";155
 " ";" ";"2016";253
 " ";" ";"2017";445
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2874,7 +2874,7 @@
 " ";" ";"2015";113
 " ";" ";"2016";131
 " ";" ";"2017";106
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2891,7 +2891,7 @@
 " ";" ";"2015";25
 " ";" ";"2016";121
 " ";" ";"2017";115
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";250
 " ";" ";"2003";211
 " ";" ";"2004";206
@@ -2908,7 +2908,7 @@
 " ";" ";"2015";153
 " ";" ";"2016";211
 " ";" ";"2017";314
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2926,7 +2926,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";117
 "200134 Baterije in akumulatorji"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";101
 " ";" ";"2003";71
 " ";" ";"2004";223
@@ -2943,7 +2943,7 @@
 " ";" ";"2015";17
 " ";" ";"2016";10
 " ";" ";"2017";21
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2960,7 +2960,7 @@
 " ";" ";"2015";1
 " ";" ";"2016";4
 " ";" ";"2017";5
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -2977,7 +2977,7 @@
 " ";" ";"2015";17
 " ";" ";"2016";5
 " ";" ";"2017";6
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";101
 " ";" ";"2003";71
 " ";" ";"2004";223
@@ -2994,7 +2994,7 @@
 " ";" ";"2015";17
 " ";" ";"2016";9
 " ";" ";"2017";19
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3011,8 +3011,8 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";2
-"200135 Zavr?ena el.,elektr. opr. z nev.sn."
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200135 Zavrzena el.,elektr. opr. z nev.sn."
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";258
 " ";" ";"2003";33
 " ";" ";"2004";180
@@ -3029,7 +3029,7 @@
 " ";" ";"2015";2023
 " ";" ";"2016";2303
 " ";" ";"2017";2238
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3046,7 +3046,7 @@
 " ";" ";"2015";1741
 " ";" ";"2016";2089
 " ";" ";"2017";1927
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3063,7 +3063,7 @@
 " ";" ";"2015";269
 " ";" ";"2016";209
 " ";" ";"2017";297
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";258
 " ";" ";"2003";33
 " ";" ";"2004";180
@@ -3080,7 +3080,7 @@
 " ";" ";"2015";2017
 " ";" ";"2016";2296
 " ";" ";"2017";2217
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3097,8 +3097,8 @@
 " ";" ";"2015";0
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200136 Zavr?ena oprema"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200136 Zavrzena oprema"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";251
 " ";" ";"2003";334
 " ";" ";"2004";1653
@@ -3115,7 +3115,7 @@
 " ";" ";"2015";5514
 " ";" ";"2016";5934
 " ";" ";"2017";7155
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3132,7 +3132,7 @@
 " ";" ";"2015";2830
 " ";" ";"2016";3843
 " ";" ";"2017";5343
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3149,7 +3149,7 @@
 " ";" ";"2015";2667
 " ";" ";"2016";2050
 " ";" ";"2017";1785
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";251
 " ";" ";"2003";334
 " ";" ";"2004";1653
@@ -3166,7 +3166,7 @@
 " ";" ";"2015";5075
 " ";" ";"2016";5929
 " ";" ";"2017";7088
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3184,7 +3184,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200137 Les, ki vsebuje nevarne snovi"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";3537
 " ";" ";"2003";1
 " ";" ";"2004";35
@@ -3201,7 +3201,7 @@
 " ";" ";"2015";0
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3218,7 +3218,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3235,7 +3235,7 @@
 " ";" ";"2015";0
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";3537
 " ";" ";"2003";1
 " ";" ";"2004";35
@@ -3252,7 +3252,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3270,7 +3270,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200138 Les, ki ni naveden pod 20 01 37"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";1157
 " ";" ";"2003";7754
 " ";" ";"2004";5322
@@ -3287,7 +3287,7 @@
 " ";" ";"2015";26391
 " ";" ";"2016";24278
 " ";" ";"2017";34138
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3304,7 +3304,7 @@
 " ";" ";"2015";17320
 " ";" ";"2016";19360
 " ";" ";"2017";26460
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3321,7 +3321,7 @@
 " ";" ";"2015";8490
 " ";" ";"2016";4339
 " ";" ";"2017";4818
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";889
 " ";" ";"2003";7754
 " ";" ";"2004";5082
@@ -3338,7 +3338,7 @@
 " ";" ";"2015";25626
 " ";" ";"2016";21120
 " ";" ";"2017";33300
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";268
 " ";" ";"2003";-
 " ";" ";"2004";240
@@ -3356,7 +3356,7 @@
 " ";" ";"2016";281
 " ";" ";"2017";-
 "200139 Plastika"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";12221
 " ";" ";"2003";2892
 " ";" ";"2004";2177
@@ -3373,7 +3373,7 @@
 " ";" ";"2015";3728
 " ";" ";"2016";4616
 " ";" ";"2017";4714
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3390,7 +3390,7 @@
 " ";" ";"2015";1926
 " ";" ";"2016";1991
 " ";" ";"2017";1477
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3407,7 +3407,7 @@
 " ";" ";"2015";1644
 " ";" ";"2016";2580
 " ";" ";"2017";3110
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";12221
 " ";" ";"2003";2892
 " ";" ";"2004";2159
@@ -3424,7 +3424,7 @@
 " ";" ";"2015";3587
 " ";" ";"2016";4483
 " ";" ";"2017";4487
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";18
@@ -3442,7 +3442,7 @@
 " ";" ";"2016";62
 " ";" ";"2017";44
 "200140 Kovine"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";1
 " ";" ";"2003";25015
 " ";" ";"2004";6692
@@ -3459,7 +3459,7 @@
 " ";" ";"2015";18187
 " ";" ";"2016";33325
 " ";" ";"2017";49092
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3476,7 +3476,7 @@
 " ";" ";"2015";4875
 " ";" ";"2016";7714
 " ";" ";"2017";30558
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3493,7 +3493,7 @@
 " ";" ";"2015";13187
 " ";" ";"2016";25600
 " ";" ";"2017";18380
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";1
 " ";" ";"2003";25015
 " ";" ";"2004";6692
@@ -3510,7 +3510,7 @@
 " ";" ";"2015";17897
 " ";" ";"2016";33159
 " ";" ";"2017";48696
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3527,8 +3527,8 @@
 " ";" ";"2015";209
 " ";" ";"2016";126
 " ";" ";"2017";111
-"200141 Odp. iz ?i??enja dimnikov"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200141 Odp. iz ciscenja dimnikov"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";393
 " ";" ";"2003";4
 " ";" ";"2004";10
@@ -3545,7 +3545,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";1
 " ";" ";"2017";0
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3562,7 +3562,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3579,7 +3579,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";1
 " ";" ";"2017";0
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";393
 " ";" ";"2003";4
 " ";" ";"2004";10
@@ -3596,7 +3596,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";1
 " ";" ";"2017";-
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3614,7 +3614,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200199 Odpadki, ki niso navedeni drugje"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";10940
 " ";" ";"2003";1331
 " ";" ";"2004";1845
@@ -3631,7 +3631,7 @@
 " ";" ";"2015";5
 " ";" ";"2016";198
 " ";" ";"2017";222
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3648,7 +3648,7 @@
 " ";" ";"2015";2
 " ";" ";"2016";2
 " ";" ";"2017";1
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3665,7 +3665,7 @@
 " ";" ";"2015";1
 " ";" ";"2016";193
 " ";" ";"2017";221
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";10940
 " ";" ";"2003";1331
 " ";" ";"2004";1845
@@ -3682,7 +3682,7 @@
 " ";" ";"2015";3
 " ";" ";"2016";24
 " ";" ";"2017";86
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3700,7 +3700,7 @@
 " ";" ";"2016";173
 " ";" ";"2017";134
 "2002 ODPADKI IZ VRTOV IN PARKOV"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";19741
 " ";" ";"2003";20051
 " ";" ";"2004";20270
@@ -3717,7 +3717,7 @@
 " ";" ";"2015";105144
 " ";" ";"2016";111621
 " ";" ";"2017";92084
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";19741
 " ";" ";"2003";20051
 " ";" ";"2004";20271
@@ -3734,7 +3734,7 @@
 " ";" ";"2015";86327
 " ";" ";"2016";86859
 " ";" ";"2017";75955
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3751,7 +3751,7 @@
 " ";" ";"2015";16698
 " ";" ";"2016";23058
 " ";" ";"2017";15030
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3768,7 +3768,7 @@
 " ";" ";"2015";103523
 " ";" ";"2016";110419
 " ";" ";"2017";89052
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3786,7 +3786,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200201 Biorazgradljivi odpadki"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";3306
 " ";" ";"2003";7969
 " ";" ";"2004";10942
@@ -3803,7 +3803,7 @@
 " ";" ";"2015";100396
 " ";" ";"2016";106811
 " ";" ";"2017";89587
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3820,7 +3820,7 @@
 " ";" ";"2015";83119
 " ";" ";"2016";83393
 " ";" ";"2017";75679
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3837,7 +3837,7 @@
 " ";" ";"2015";15671
 " ";" ";"2016";21724
 " ";" ";"2017";12860
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";3306
 " ";" ";"2003";7969
 " ";" ";"2004";10942
@@ -3854,7 +3854,7 @@
 " ";" ";"2015";99305
 " ";" ";"2016";105664
 " ";" ";"2017";86653
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3872,7 +3872,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200202 Zemlja in kamenje"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";5495
 " ";" ";"2003";4453
 " ";" ";"2004";3375
@@ -3889,7 +3889,7 @@
 " ";" ";"2015";3721
 " ";" ";"2016";4016
 " ";" ";"2017";2000
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3906,7 +3906,7 @@
 " ";" ";"2015";3156
 " ";" ";"2016";3454
 " ";" ";"2017";269
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3923,7 +3923,7 @@
 " ";" ";"2015";217
 " ";" ";"2016";552
 " ";" ";"2017";1679
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";5495
 " ";" ";"2003";4453
 " ";" ";"2004";3375
@@ -3940,7 +3940,7 @@
 " ";" ";"2015";3351
 " ";" ";"2016";3963
 " ";" ";"2017";1911
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3958,7 +3958,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200203 Drugi odpadki, ki niso biorazgradljivi"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";635841
 " ";" ";"2003";7629
 " ";" ";"2004";5953
@@ -3975,7 +3975,7 @@
 " ";" ";"2015";1027
 " ";" ";"2016";793
 " ";" ";"2017";497
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -3992,7 +3992,7 @@
 " ";" ";"2015";53
 " ";" ";"2016";12
 " ";" ";"2017";7
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4009,7 +4009,7 @@
 " ";" ";"2015";810
 " ";" ";"2016";781
 " ";" ";"2017";490
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";634762
 " ";" ";"2003";7622
 " ";" ";"2004";5953
@@ -4026,7 +4026,7 @@
 " ";" ";"2015";867
 " ";" ";"2016";793
 " ";" ";"2017";489
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";1079
 " ";" ";"2003";6
 " ";" ";"2004";-
@@ -4044,7 +4044,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "2003 DRUGI KOMUNALNI ODPADKI"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";683890
 " ";" ";"2003";673565
 " ";" ";"2004";700748
@@ -4061,7 +4061,7 @@
 " ";" ";"2015";347105
 " ";" ";"2016";368775
 " ";" ";"2017";359212
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";521161
 " ";" ";"2003";522794
 " ";" ";"2004";541697
@@ -4078,7 +4078,7 @@
 " ";" ";"2015";264208
 " ";" ";"2016";268303
 " ";" ";"2017";260436
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";162729
 " ";" ";"2003";150771
 " ";" ";"2004";159052
@@ -4095,7 +4095,7 @@
 " ";" ";"2015";76196
 " ";" ";"2016";98252
 " ";" ";"2017";93492
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4112,7 +4112,7 @@
 " ";" ";"2015";343512
 " ";" ";"2016";363571
 " ";" ";"2017";357557
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4129,8 +4129,8 @@
 " ";" ";"2015";5
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200301 Me?ani komunalni odpadki"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200301 Mesani komunalni odpadki"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";1100
 " ";" ";"2003";612302
 " ";" ";"2004";634197
@@ -4147,7 +4147,7 @@
 " ";" ";"2015";297375
 " ";" ";"2016";309854
 " ";" ";"2017";301304
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4164,7 +4164,7 @@
 " ";" ";"2015";233119
 " ";" ";"2016";221992
 " ";" ";"2017";216074
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4181,7 +4181,7 @@
 " ";" ";"2015";58762
 " ";" ";"2016";85876
 " ";" ";"2017";80291
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";1100
 " ";" ";"2003";612302
 " ";" ";"2004";633765
@@ -4198,7 +4198,7 @@
 " ";" ";"2015";294749
 " ";" ";"2016";304930
 " ";" ";"2017";300508
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";432
@@ -4215,8 +4215,8 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200302 Odpadki s tr?nic"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200302 Odpadki s trznic"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";5506
 " ";" ";"2003";1164
 " ";" ";"2004";1871
@@ -4233,7 +4233,7 @@
 " ";" ";"2015";11
 " ";" ";"2016";93
 " ";" ";"2017";9
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4250,7 +4250,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4267,7 +4267,7 @@
 " ";" ";"2015";11
 " ";" ";"2016";86
 " ";" ";"2017";3
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";5506
 " ";" ";"2003";1164
 " ";" ";"2004";1871
@@ -4284,7 +4284,7 @@
 " ";" ";"2015";5
 " ";" ";"2016";87
 " ";" ";"2017";2
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4301,8 +4301,8 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200303 Odpadki iz ?i??enja cest"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200303 Odpadki iz ciscenja cest"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";1645
 " ";" ";"2003";6293
 " ";" ";"2004";7798
@@ -4319,7 +4319,7 @@
 " ";" ";"2015";5725
 " ";" ";"2016";4230
 " ";" ";"2017";4125
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4336,7 +4336,7 @@
 " ";" ";"2015";639
 " ";" ";"2016";32
 " ";" ";"2017";10
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4353,7 +4353,7 @@
 " ";" ";"2015";4470
 " ";" ";"2016";4194
 " ";" ";"2017";3910
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";1645
 " ";" ";"2003";6293
 " ";" ";"2004";7798
@@ -4370,7 +4370,7 @@
 " ";" ";"2015";5080
 " ";" ";"2016";4026
 " ";" ";"2017";3869
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4388,7 +4388,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200304 Blato iz greznic"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";2316
 " ";" ";"2003";13858
 " ";" ";"2004";14301
@@ -4405,7 +4405,7 @@
 " ";" ";"2015";3224
 " ";" ";"2016";12675
 " ";" ";"2017";11115
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4422,7 +4422,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";12110
 " ";" ";"2017";10498
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4439,7 +4439,7 @@
 " ";" ";"2015";3215
 " ";" ";"2016";564
 " ";" ";"2017";568
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";2316
 " ";" ";"2003";13858
 " ";" ";"2004";14301
@@ -4456,7 +4456,7 @@
 " ";" ";"2015";3204
 " ";" ";"2016";12626
 " ";" ";"2017";11109
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4473,8 +4473,8 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-"200306 Odpadki iz ?i??enja kanalizacije"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+"200306 Odpadki iz ciscenja kanalizacije"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";36792
 " ";" ";"2003";2931
 " ";" ";"2004";1727
@@ -4491,7 +4491,7 @@
 " ";" ";"2015";144
 " ";" ";"2016";-
 " ";" ";"2017";105
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4508,7 +4508,7 @@
 " ";" ";"2015";-
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4525,7 +4525,7 @@
 " ";" ";"2015";144
 " ";" ";"2016";-
 " ";" ";"2017";41
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";36792
 " ";" ";"2003";2931
 " ";" ";"2004";1727
@@ -4542,7 +4542,7 @@
 " ";" ";"2015";143
 " ";" ";"2016";-
 " ";" ";"2017";38
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4560,7 +4560,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200307 Kosovni odpadki"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";691
 " ";" ";"2003";36804
 " ";" ";"2004";39753
@@ -4577,7 +4577,7 @@
 " ";" ";"2015";40531
 " ";" ";"2016";41922
 " ";" ";"2017";42554
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4594,7 +4594,7 @@
 " ";" ";"2015";30419
 " ";" ";"2016";34168
 " ";" ";"2017";33854
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4611,7 +4611,7 @@
 " ";" ";"2015";9591
 " ";" ";"2016";7530
 " ";" ";"2017";8679
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";691
 " ";" ";"2003";36804
 " ";" ";"2004";39753
@@ -4628,7 +4628,7 @@
 " ";" ";"2015";40297
 " ";" ";"2016";41901
 " ";" ";"2017";42031
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4646,7 +4646,7 @@
 " ";" ";"2016";-
 " ";" ";"2017";-
 "200399 Komunalni odpadki, ki niso navedeni drugje"
-" ";"Nastala koli?ina in skladi??enje - SKUPAJ"
+" ";"Nastala kolicina in skladiscenje - SKUPAJ"
 " ";" ";"2002";-
 " ";" ";"2003";214
 " ";" ";"2004";1101
@@ -4663,7 +4663,7 @@
 " ";" ";"2015";94
 " ";" ";"2016";1
 " ";" ";"2017";0
-" ";"Nastala koli?ina v gospodinjstvih"
+" ";"Nastala kolicina v gospodinjstvih"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4680,7 +4680,7 @@
 " ";" ";"2015";32
 " ";" ";"2016";-
 " ";" ";"2017";-
-" ";"Nastala koli?ina v proizvodnih in storitvenih dej."
+" ";"Nastala kolicina v proizvodnih in storitvenih dej."
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
@@ -4697,7 +4697,7 @@
 " ";" ";"2015";3
 " ";" ";"2016";1
 " ";" ";"2017";0
-" ";"Koli?ina oddana v obdelavo"
+" ";"Kolicina oddana v obdelavo"
 " ";" ";"2002";-
 " ";" ";"2003";214
 " ";" ";"2004";1101
@@ -4714,7 +4714,7 @@
 " ";" ";"2015";35
 " ";" ";"2016";1
 " ";" ";"2017";0
-" ";"Koli?ina poslana v tujino"
+" ";"Kolicina poslana v tujino"
 " ";" ";"2002";-
 " ";" ";"2003";-
 " ";" ";"2004";-
