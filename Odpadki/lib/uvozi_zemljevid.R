@@ -103,3 +103,12 @@ preuredi <- function(podatki, zemljevid, stolpec, novi = NULL) {
   }
   return(out)
 }
+
+
+
+pretvori.zemljevid <- function(zemljevid) {
+  fo <- fortify(zemljevid)
+  data <- zemljevid@data
+  data$id <- as.character(0:(nrow(data)-1))
+  return(inner_join(fo, data, by="id"))
+}

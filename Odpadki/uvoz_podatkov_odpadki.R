@@ -1,6 +1,7 @@
 library(knitr)
 library(dplyr)
 library(ggplot2)
+library(plyr)
 #library(gsubfn)
 #library(rvest)
 #library(XML)
@@ -54,12 +55,28 @@ odpadki_regije <- odpadki_regije[-seq(1,nrow(odpadki_regije),33),]
 odpadki_regije <- uredi(odpadki_regije, 1,2,3)
 odpadki_regije <- odpadki_regije[-seq(1,nrow(odpadki_regije),4),]
 
-regije <- unique(odpadki_regije$Regija)
-odpadki_regije_vrste <- unique(odpadki_regije$Odpadki)
-
 # uredimo imena (odstranimo besedo (tone) na koncu)
 odpadki_regije$Odpadki <- sapply(strsplit(as.character(odpadki_regije$Odpadki), split=" (", fixed=TRUE), 
                                  function(x) x[1])
+
+odpadki_regije <- odpadki_regije[which(odpadki_regije$Odpadki == "Nastali komunalni odpadki"),]
+
+# spremenimo poimenovanje regij
+odpadki_regije$Regija <- revalue(odpadki_regije$Regija, 
+                                 revalue(c("Primorsko-notranjska" = "Notranjsko-kraska",
+                                           "Posavska" = "Spodnjeposavska")))
+
+odpadki_regije$Regija <- as.character(odpadki_regije$Regija)
+odpadki_regije <- odpadki_regije[order(odpadki_regije$Regija),]
+
+# naredimo tabele, ki jih bomo združili z zemljevidom
+tabela_zemljevid <- odpadki_regije[which(odpadki_regije$Regija != "SLOVENIJA" & 
+                                         odpadki_regije$Regija !="Zahodna Slovenija" &
+                                         odpadki_regije$Regija != "Vzhodna Slovenija" &
+                                         odpadki_regije$Leto != 2010 &
+                                         odpadki_regije$Leto != 2011),]
+
+regije <- unique(odpadki_regije$Regija)
 
 #-----------------------------------------------------------------------
 
@@ -75,9 +92,6 @@ odpadki_EU <- read.csv2("odpadki_EU.csv",
 
 # odpravimo vejice pri tisočicah
 odpadki_EU$Kolicina <- as.numeric(gsub(",", "", odpadki_EU$Kolicina, fixed = TRUE)) 
-
-# http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do
-
 
 
 
