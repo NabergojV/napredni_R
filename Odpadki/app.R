@@ -3,13 +3,14 @@ library(ggplot2)
 library(shinythemes)
 library(dplyr)
 library(shinyWidgets)
+library(shinyjs)
 
 source("uvoz_podatkov_odpadki.R")
 source("tema.R")
 source("lib/uvozi_zemljevid.r", encoding = "UTF-8")
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(theme = shinytheme("superhero"),
+ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
    
    titlePanel("Prikaz količine odpadkov v Sloveniji skozi leta in regije"),
    
@@ -43,11 +44,12 @@ ui <- fluidPage(theme = shinytheme("superhero"),
                 ),
                 
                 mainPanel(
+                  useShinyjs(),
                   conditionalPanel(
-                    condition='input.gumb1==TRUE',
+                    condition='input.gumb1',
                     plotOutput("graf_vrste")),
                   conditionalPanel(
-                    condition='input.gumb2==TRUE',
+                    condition='input.gumb2',
                     tableOutput("tabela1"))
               ))),
      
@@ -62,7 +64,7 @@ ui <- fluidPage(theme = shinytheme("superhero"),
 server <- function(input, output) {
   
   # prvi tab
-  
+
   gumb1 <- reactiveValues(gumb1=TRUE)
   gumb2 <- reactiveValues(gumb2=FALSE)
   
@@ -76,50 +78,69 @@ server <- function(input, output) {
                gumb1$gumb1=FALSE})
   )
   
-  
   output$graf_vrste <- renderPlot({
-    
+
     if(gumb1$gumb1){
-    
+
       tabela_vrste <- odpadki_vrste %>% filter(Leto %in% seq(min(input$leto_vrste),max(input$leto_vrste)) &
-                                               Nastanek %in% input$nastanek_vrste &
-                                               Vrsta %in% c(input$vrsta_vrste))
-        
+                                                 Nastanek %in% input$nastanek_vrste &
+                                                 Vrsta %in% c(input$vrsta_vrste))
+
       if (input$kolicina == "Količina odpadkov v tonah"){
-          ggplot(tabela_vrste,aes(x=Leto,y=Kolicina_tona,fill=Vrsta)) +
-            geom_bar(stat = "identity")+
-            labs(title = "Količina odpadkov glede na vrsto in nastanek", x="Leto", y="Količina (v tonah)")+
-            tema()
-        }
-    
-        else
-      
-        ggplot(tabela_vrste,aes(x=Leto,y=tabela_vrste$"Kolicina_kg/Prebivalec",fill=Vrsta)) +
+        ggplot(tabela_vrste,aes(x=Leto,y=Kolicina_tona,fill=Vrsta)) +
           geom_bar(stat = "identity")+
-          labs(title = "Količina odpadkov glede na vrsto in nastanek na prebivalca", x="Leto", y="Količina (v kg na prebivalca)")+
-          tema()
+          labs(title = "Količina odpadkov glede na vrsto in nastanek", x="Leto", y="Količina (v tonah)")+
+          tema() +
+          scale_x_continuous(breaks = min(input$leto_vrste):max(input$leto_vrste))
+
       }
-    
-    else 
-      return()
-    
+
+      else
+
+        ggplot(tabela_vrste,aes(x=Leto,y=tabela_vrste$"Kolicina_kg/Prebivalec",fill=Vrsta)) +
+        geom_bar(stat = "identity")+
+        labs(title = "Količina odpadkov glede na vrsto in nastanek na prebivalca", x="Leto", y="Količina (v kg na prebivalca)")+
+        tema() +
+        scale_x_continuous(breaks = min(input$leto_vrste):max(input$leto_vrste))
+    }
+
+    else
+      # hide skrije graf in pokaže tabelo na vrhu, vendar ne moreš več prikazati grafa, ko ga enkrat skriješ
+      #hide("graf_vrste")
+    {}
+
   })
   
   output$tabela1 <- renderTable({
-    
+
     if(gumb2$gumb2){
-      
-    tabela_vrste <- odpadki_vrste %>% filter(Leto %in% seq(min(input$leto_vrste),max(input$leto_vrste)) &
-                                               Nastanek %in% input$nastanek_vrste &
-                                               Vrsta %in% c(input$vrsta_vrste))
-    
-    tabela_vrste
-    
+
+
+      tabela_vrste <- odpadki_vrste %>% filter(Leto %in% seq(min(input$leto_vrste),max(input$leto_vrste)) &
+                                                 Nastanek %in% input$nastanek_vrste &
+                                                 Vrsta %in% c(input$vrsta_vrste))
+
+      tabela_vrste
+
     }
-    else 
-      return()
-    
+    else
+      {}
+
   })
+  
+  # observeEvent(input$gumb1, {
+  #                shinyjs::show("graf_vrste")
+  #                #shinyjs::hide("tabela1")
+  #               })
+  #              
+  # 
+  # 
+  # observeEvent(input$gumb2, {
+  #                shinyjs::show("tabela1")
+  #                #shinyjs::hide("graf_vrste")
+  #              })
+  
+
   
   #-------------------------------------------------------------------------
   
@@ -143,11 +164,16 @@ server <- function(input, output) {
     
     zem12 <- pretvori.zemljevid(zem12)
     
+    cnames <- aggregate(cbind(long, lat) ~ NAME_1, data=zem12, 
+                        FUN=function(x)mean(range(x)))
+    
     if (input$kolicina1 == "Količina odpadkov v tonah"){
     
       ggplot() + geom_polygon(data=zem12, aes(x=long, y=lat, group=group, fill=Kolicina_tona)) + 
         tema_zemljevid() + 
-        labs(title = "Prikaz količine odpadkov po regijah v Sloveniji", x = "", y = "")
+        labs(title = "Prikaz količine odpadkov po regijah v Sloveniji", x = "", y = "") + 
+        geom_text(data=cnames, aes(long, lat, label = NAME_1), size=4, colour="white") + 
+        labs(fill = "Količina v tonah")
     }
     
     else
@@ -155,12 +181,21 @@ server <- function(input, output) {
       ggplot() + geom_polygon(data=zem12, aes(x=long, y=lat, group=group, fill=zem12$"Kolicina_kg/Prebivalec")) + 
         tema_zemljevid() + 
         labs(title = "Prikaz količine odpadkov po regijah v Sloveniji", x = "", y = "") +
-        labs(fill='Kg/Prebivalec') 
+        labs(fill = 'Količina v \n kg/prebivalec') + 
+        geom_text(data=cnames, aes(long, lat, label = NAME_1), size=4, colour="white")
     
   })
   
   output$tabela_regije <- renderTable({
-    tabela_zemljevid %>% filter(Leto == input$leto1)
+
+    if (input$kolicina1 == "Količina odpadkov v tonah"){
+      tabela_zemljevid[order(tabela_zemljevid$Kolicina_tona),c(1,2,3,4)] %>% 
+        filter(Leto == input$leto1) }
+
+    else
+      tabela_zemljevid[order(tabela_zemljevid$`Kolicina_kg/Prebivalec`),c(1,2,3,5)] %>% 
+        filter(Leto == input$leto1)
+      
   })
   
   output$graf_regije <- renderPlot({
@@ -173,14 +208,16 @@ server <- function(input, output) {
       ggplot(odpadki_regije1,aes(x=Leto,y=Kolicina_tona,fill=Regija)) +
         geom_bar(stat = "identity") +
         labs(title = "Količina odpadkov glede na regijo", x="Leto", y="Količina (v tonah)") +
-        tema()
+        tema() + 
+        scale_x_continuous(breaks = min(input$leto2):max(input$leto2))
     }
     
     else
       ggplot(odpadki_regije1,aes(x=Leto,y=odpadki_regije1$'Kolicina_kg/Prebivalec',fill=Regija)) +
         geom_bar(stat = "identity") +
         labs(title = "Količina odpadkov glede na regijo na prebivalca", x="Leto", y="Količina (v kg na prebivalca)") +
-        tema()
+        tema() + 
+        scale_x_continuous(breaks = min(input$leto2):max(input$leto2))
       
   }) 
   
@@ -192,7 +229,8 @@ server <- function(input, output) {
                              sliderInput("leto1", "Leto:",
                                          min = 2012, max = 2017,
                                          value = 2014,
-                                         step = 1),
+                                         step = 1,
+                                         animate = T),
                              hr(),
                              selectInput("kolicina1", "Izberi količino:",
                                          choices = c("Količina odpadkov v tonah",
@@ -201,7 +239,7 @@ server <- function(input, output) {
                          ),
                          mainPanel(
                            fluidRow(
-                            column(7,plotOutput("zemljevid_regije",height = "400px",width = "600")),
+                            column(7,plotOutput("zemljevid_regije",height = "450px",width = "650")),
                             column(5,tableOutput("tabela_regije"))
                            )
                          ))
