@@ -15,7 +15,9 @@ ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
    titlePanel("Prikaz količine odpadkov v Sloveniji skozi leta in regije"),
    
    tabsetPanel(
-     tabPanel("Odpadki po vrstah",
+     tabPanel("Odpadki po vrstah", 
+              # h2("blue tab", style='color:blue'),
+              # p("text is is in gold" , style ="font-weight:bold; color:gold"),
               sidebarLayout(
                 sidebarPanel(width=3,
                   sliderInput("leto_vrste", "Leto:",
@@ -37,20 +39,20 @@ ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
                                           "Količina odpadkov na prebivalca (kg)"),
                               selected = "Količina odpadkov v tonah"),
                   hr(),
-                  actionButton("gumb1","Graf" , icon("chart-bar"), 
+                  actionButton("gumb1","Graf" , icon("chart-bar"), width = '100px',
                                style="color: #fff; background-color: #337ab7; border-color: #2e6da4"),
-                  actionButton("gumb2","Tabela", icon("table"),
+                  actionButton("gumb2","Tabela", icon("table"), width = '100px',
                                style="color: #fff; background-color: orange")
                 ),
                 
                 mainPanel(
-                  useShinyjs(),
                   conditionalPanel(
                     condition='input.gumb1',
                     plotOutput("graf_vrste")),
                   conditionalPanel(
                     condition='input.gumb2',
                     tableOutput("tabela1"))
+
               ))),
      
      tabPanel("Odpadki po regijah", fluid=TRUE, uiOutput("Odpadki po regijah"))
@@ -105,8 +107,8 @@ server <- function(input, output) {
     }
 
     else
-      # hide skrije graf in pokaže tabelo na vrhu, vendar ne moreš več prikazati grafa, ko ga enkrat skriješ
-      #hide("graf_vrste")
+      # ukaz hide skrije graf in pokaže tabelo na vrhu, vendar ne moreš več prikazati grafa, ko ga enkrat skriješ
+      # hide("graf_vrste")
     {}
 
   })
@@ -114,14 +116,21 @@ server <- function(input, output) {
   output$tabela1 <- renderTable({
 
     if(gumb2$gumb2){
-
-
+      
       tabela_vrste <- odpadki_vrste %>% filter(Leto %in% seq(min(input$leto_vrste),max(input$leto_vrste)) &
                                                  Nastanek %in% input$nastanek_vrste &
                                                  Vrsta %in% c(input$vrsta_vrste))
+      
+      if (input$kolicina == "Količina odpadkov v tonah"){
 
-      tabela_vrste
-
+        tabela_vrste[order(tabela_vrste$Kolicina_tona, decreasing = TRUE), c(1,2,3,4)]
+      
+      }
+      
+      else
+        
+        tabela_vrste[order(tabela_vrste$'Kolicina_kg/Prebivalec', decreasing = TRUE), c(1,2,3,5)]
+        
     }
     else
       {}
@@ -130,14 +139,14 @@ server <- function(input, output) {
   
   # observeEvent(input$gumb1, {
   #                shinyjs::show("graf_vrste")
-  #                #shinyjs::hide("tabela1")
+  #                shinyjs::hide("tabela1")
   #               })
   #              
   # 
   # 
   # observeEvent(input$gumb2, {
   #                shinyjs::show("tabela1")
-  #                #shinyjs::hide("graf_vrste")
+  #                shinyjs::hide("graf_vrste")
   #              })
   
 
