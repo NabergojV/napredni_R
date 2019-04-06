@@ -16,7 +16,7 @@ ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
                 titlePanel("Prikaz količine odpadkov v Sloveniji skozi leta in regije"),
                 
                 tabsetPanel(
-                  tabPanel("Odpadki po vrstah", 
+                  tabPanel("Odpadki po vrstah", icon = icon('trash'),
                            # h2("blue tab", style='color:blue'),
                            # p("text is is in gold" , style ="font-weight:bold; color:gold"),
                            sidebarLayout(
@@ -47,18 +47,20 @@ ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
                              
                              mainPanel(
                                tabsetPanel(id="delcek",
-                                           tabPanel(title="Graf",
+                                           tabPanel(title="Graf", icon = icon('chart-bar'),
                                                     value="grafgraf",
                                                     plotOutput("graf_vrste")),
-                                           tabPanel(title="Tabela",
+                                           tabPanel(title="Tabela", icon = icon('table'),
                                                     value="tabtab",
+                                                    style="color: #fff; background-color: #337ab7; border-color: #2e6da4",
                                                     DT::dataTableOutput("tabela1"))
                                )
                              )
                                
                              )),
                   
-                  tabPanel("Odpadki po regijah", fluid=TRUE, uiOutput("Odpadki po regijah"))
+                  tabPanel("Odpadki po regijah", fluid=TRUE, uiOutput("Odpadki po regijah"),
+                           icon = icon('globe'))
                   
                 )
 )
@@ -90,12 +92,12 @@ server <- function(input, output,session) {
                                                Vrsta %in% c(input$vrsta_vrste))
     
       if (input$kolicina == "Količina odpadkov v tonah"){
+        
         ggplot(tabela_vrste,aes(x=Leto,y=Kolicina_tona,fill=Vrsta)) +
           geom_bar(stat = "identity")+
           labs(title = "Količina odpadkov glede na vrsto in nastanek", x="Leto", y="Količina (v tonah)")+
           tema() +
           scale_x_continuous(breaks = min(input$leto_vrste):max(input$leto_vrste))
-        
       }
       
       else
@@ -107,7 +109,7 @@ server <- function(input, output,session) {
         scale_x_continuous(breaks = min(input$leto_vrste):max(input$leto_vrste))
   })
   
-  output$tabela1 <- DT::renderDataTable({
+  output$tabela1 <- DT::renderDataTable({iris
     
     tabela_vrste <- odpadki_vrste %>% filter(Leto %in% seq(min(input$leto_vrste),max(input$leto_vrste)) &
                                                Nastanek %in% input$nastanek_vrste &
@@ -115,13 +117,19 @@ server <- function(input, output,session) {
       
       if (input$kolicina == "Količina odpadkov v tonah"){
         
-        tabela_vrste[order(tabela_vrste$Kolicina_tona, decreasing = TRUE), c(1,2,3,4)]
+        tab <- tabela_vrste[order(tabela_vrste$Kolicina_tona, decreasing = TRUE), c(1,2,3,4)] 
+        
+        datatable(tab) %>%
+          formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
         
       }
       
       else
         
-        tabela_vrste[order(tabela_vrste$'Kolicina_kg/Prebivalec', decreasing = TRUE), c(1,2,3,5)]
+        tab <- tabela_vrste[order(tabela_vrste$'Kolicina_kg/Prebivalec', decreasing = TRUE), c(1,2,3,5)]
+    
+        datatable(tab) %>%
+          formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
     
   })
   
@@ -174,12 +182,17 @@ server <- function(input, output,session) {
   output$tabela_regije <- DT::renderDataTable({
     
     if (input$kolicina1 == "Količina odpadkov v tonah"){
-      tabela_zemljevid[order(tabela_zemljevid$Kolicina_tona),c(1,2,3,4)] %>% 
-        filter(Leto == input$leto1) }
+      tab <- tabela_zemljevid[order(tabela_zemljevid$Kolicina_tona),c(1,2,3,4)] %>% 
+        filter(Leto == input$leto1)
+      datatable(tab) %>%
+        formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
+    }
     
     else
-      tabela_zemljevid[order(tabela_zemljevid$`Kolicina_kg/Prebivalec`),c(1,2,3,5)] %>% 
-      filter(Leto == input$leto1)
+      tab <- tabela_zemljevid[order(tabela_zemljevid$`Kolicina_kg/Prebivalec`),c(1,2,3,5)] %>% 
+        filter(Leto == input$leto1)
+      datatable(tab) %>%
+        formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
     
   })
   
@@ -208,7 +221,7 @@ server <- function(input, output,session) {
   
   output$"Odpadki po regijah" <- renderUI({
     tabsetPanel(
-      tabPanel("Zemljevid",
+      tabPanel("Zemljevid", icon = icon('map-marked-alt'),
                sidebarLayout(
                  sidebarPanel(width = 3,
                               sliderInput("leto1", "Leto:",
@@ -225,12 +238,13 @@ server <- function(input, output,session) {
                  mainPanel(
                    fluidRow(
                      column(7,plotOutput("zemljevid_regije",height = "450px",width = "650")),
-                     column(5,tableOutput("tabela_regije"))
+                     column(5,DT::dataTableOutput("tabela_regije"), 
+                            style="color: #fff; background-color: #337ab7; border-color: #2e6da4")
                    )
                  ))
                
       ),
-      tabPanel("Graf",
+      tabPanel("Graf", icon = icon('chart-bar'),
                sidebarLayout(
                  sidebarPanel(width = 3,
                               sliderInput("leto2", "Leto:",
