@@ -109,7 +109,7 @@ server <- function(input, output,session) {
         scale_x_continuous(breaks = min(input$leto_vrste):max(input$leto_vrste))
   })
   
-  output$tabela1 <- DT::renderDataTable({iris
+  output$tabela1 <- DT::renderDataTable({
     
     tabela_vrste <- odpadki_vrste %>% filter(Leto %in% seq(min(input$leto_vrste),max(input$leto_vrste)) &
                                                Nastanek %in% input$nastanek_vrste &
@@ -121,6 +121,7 @@ server <- function(input, output,session) {
         
         datatable(tab) %>%
           formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
+          
         
       }
       
