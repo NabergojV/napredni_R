@@ -194,7 +194,10 @@ server <- function(input, output,session) {
         filter(Leto == input$leto1)
       datatable(tab) %>%
         formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
-    
+      
+      DT:::datatable(data=tabela_zemljevid,rownames = FALSE,options = list(autoWidth = TRUE)) %>% 
+        formatStyle(columns = colnames(tabela_zemljevid), background = "gray")
+      
   })
   
   output$graf_regije <- renderPlot({
