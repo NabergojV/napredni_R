@@ -114,25 +114,25 @@ server <- function(input, output,session) {
     tabela_vrste <- odpadki_vrste %>% filter(Leto %in% seq(min(input$leto_vrste),max(input$leto_vrste)) &
                                                Nastanek %in% input$nastanek_vrste &
                                                Vrsta %in% c(input$vrsta_vrste))
-      
-      if (input$kolicina == "Količina odpadkov v tonah"){
-        
-        tab <- tabela_vrste[order(tabela_vrste$Kolicina_tona, decreasing = TRUE), c(1,2,3,4)] 
-        
-        datatable(tab) %>%
-          formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
-          
-        
-      }
-      
-      else
-        
-        tab <- tabela_vrste[order(tabela_vrste$'Kolicina_kg/Prebivalec', decreasing = TRUE), c(1,2,3,5)]
     
-        datatable(tab) %>%
-          formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
+    if (input$kolicina == "Količina odpadkov v tonah"){
+      
+      tabela_vrste[order(tabela_vrste$Kolicina_tona, decreasing = TRUE), c(1,2,3,4)]
+      
+    }
     
-  })
+    else
+      
+      tabela_vrste[order(tabela_vrste$'Kolicina_kg/Prebivalec', decreasing = TRUE), c(1,2,3,5)]
+    
+    
+    
+    DT:::datatable(data=tabela_vrste,rownames = FALSE,options = list(autoWidth = TRUE)) %>% 
+      formatStyle(columns = colnames(tabela_vrste), background = "gray")
+    
+  }) 
+  
+  
   
 
   
