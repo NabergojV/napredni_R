@@ -21,10 +21,6 @@ ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
                            # p("text is is in gold" , style ="font-weight:bold; color:gold"),
                            sidebarLayout(
                              sidebarPanel(width=3,
-                               # switchInput("kazalo", label = NULL, value = FALSE, onLabel = "Graf",
-                               #             offLabel = "Tabela", onStatus ="red", offStatus = "blue",
-                               #             size = "default", labelWidth = "auto", handleWidth = "auto",
-                               #             inline = FALSE, width ="100px"),
                                sliderInput("leto_vrste", "Leto:",
                                            min = 2002, max = 2017,
                                            value = c(2010,2015),
@@ -52,7 +48,7 @@ ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
                                                     plotOutput("graf_vrste")),
                                            tabPanel(title="Tabela", icon = icon('table'),
                                                     value="tabtab",
-                                                    style="color: #fff; background-color: #337ab7; border-color: #2e6da4",
+                                                    style="color: #fff; background-color: #4682B4  ; border-color: #2e6da4",
                                                     DT::dataTableOutput("tabela1"))
                                )
                              )
@@ -117,18 +113,22 @@ server <- function(input, output,session) {
     
     if (input$kolicina == "Količina odpadkov v tonah"){
       
-      tabela_vrste[order(tabela_vrste$Kolicina_tona, decreasing = TRUE), c(1,2,3,4)]
+      tab <- tabela_vrste[order(tabela_vrste$Kolicina_tona, decreasing = TRUE), c(1,2,3,4)]
+      tab
       
     }
     
     else
       
-      tabela_vrste[order(tabela_vrste$'Kolicina_kg/Prebivalec', decreasing = TRUE), c(1,2,3,5)]
+      tab <- tabela_vrste[order(tabela_vrste$'Kolicina_kg/Prebivalec', decreasing = TRUE), c(1,2,3,5)]
+      tab
     
     
     
-    DT:::datatable(data=tabela_vrste,rownames = FALSE,options = list(autoWidth = TRUE)) %>% 
-      formatStyle(columns = colnames(tabela_vrste), background = "gray")
+    DT:::datatable(data=tab,rownames = FALSE,options = list(autoWidth = TRUE)) %>% 
+      formatStyle(columns = colnames(tab), 
+                  background = "#F5F5DC", 
+                  color = "black")
     
   }) 
   
@@ -183,20 +183,22 @@ server <- function(input, output,session) {
   output$tabela_regije <- DT::renderDataTable({
     
     if (input$kolicina1 == "Količina odpadkov v tonah"){
-      tab <- tabela_zemljevid[order(tabela_zemljevid$Kolicina_tona),c(1,2,3,4)] %>% 
+      tab1 <- tabela_zemljevid[order(tabela_zemljevid$Kolicina_tona),c(1,2,3,4)] %>% 
         filter(Leto == input$leto1)
-      datatable(tab) %>%
-        formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
+      datatable(tab1) %>%
+        formatStyle(columns = colnames(tab1), target = "cell")
     }
     
     else
-      tab <- tabela_zemljevid[order(tabela_zemljevid$`Kolicina_kg/Prebivalec`),c(1,2,3,5)] %>% 
+      tab1 <- tabela_zemljevid[order(tabela_zemljevid$`Kolicina_kg/Prebivalec`),c(1,2,3,5)] %>% 
         filter(Leto == input$leto1)
-      datatable(tab) %>%
-        formatStyle(columns = colnames(tab), target = "cell", color = "black", backgroundColor = "#F7080880")
+      datatable(tab1) %>%
+        formatStyle(columns = colnames(tab1), target = "cell")
       
-      DT:::datatable(data=tabela_zemljevid,rownames = FALSE,options = list(autoWidth = TRUE)) %>% 
-        formatStyle(columns = colnames(tabela_zemljevid), background = "gray")
+      DT:::datatable(data=tab1,rownames = FALSE,options = list(autoWidth = TRUE)) %>% 
+        formatStyle(columns = colnames(tab1), 
+                    background = "#F5F5DC", 
+                    color = "black")
       
   })
   
@@ -243,7 +245,7 @@ server <- function(input, output,session) {
                    fluidRow(
                      column(7,plotOutput("zemljevid_regije",height = "450px",width = "650")),
                      column(5,DT::dataTableOutput("tabela_regije"), 
-                            style="color: #fff; background-color: #337ab7; border-color: #2e6da4")
+                            style="color: #fff; background-color: #4682B4; border-color: #2e6da4")
                    )
                  ))
                
