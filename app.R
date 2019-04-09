@@ -7,7 +7,7 @@ library(DT)
 
 source("uvoz_podatkov_odpadki.R")
 source("tema.R")
-source("lib/uvozi_zemljevid.R", encoding = "UTF-8")
+source("uvozi_zemljevid.R", encoding = "UTF-8")
 
 ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
                 
