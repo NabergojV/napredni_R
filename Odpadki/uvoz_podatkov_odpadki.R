@@ -1,7 +1,7 @@
 library(knitr)
+library(plyr)
 library(dplyr)
 library(ggplot2)
-library(plyr)
 
 # uvoz tabele stevilo prebivalcev po regijah
 

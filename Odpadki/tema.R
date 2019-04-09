@@ -1,8 +1,5 @@
 library(ggplot2)
-library(RColorBrewer)
 
-windowsFonts(pisava=windowsFont("Consolas"))
-windowsFonts(stevila=windowsFont("Yu Gothic Medium"))
 tema <- function() {
   
   theme(plot.background=element_rect(fill="gray85")) + #ta pobarva tudi za naslovom ozadje
