@@ -1,0 +1,12 @@
+name: odpadki_napredni_r
+title: odpadki_napredni_R
+username:
+account: marinas
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 850928
+bundleId: 1998675
+url: https://marinas.shinyapps.io/odpadki_napredni_r/
+when: 1554839108.57355
+asMultiple: FALSE
+asStatic: FALSE
