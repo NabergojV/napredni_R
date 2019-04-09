@@ -5,8 +5,8 @@ account: marinas
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 850928
-bundleId: 1998675
+bundleId: 1998742
 url: https://marinas.shinyapps.io/odpadki_napredni_r/
-when: 1554839108.57355
+when: 1554840413.57919
 asMultiple: FALSE
 asStatic: FALSE
