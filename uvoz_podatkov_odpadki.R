@@ -1,7 +1,5 @@
-library(knitr)
-library(plyr)
-library(dplyr)
-library(ggplot2)
+source("lib.R")
+source("uvozi.zemljevid.R", encoding = "UTF-8")
 
 # uvoz tabele stevilo prebivalcev po regijah
 
@@ -126,6 +124,7 @@ tabela_zemljevid$"Kolicina_kg/Prebivalec" <- round(tabela_zemljevid$Kolicina_ton
 
 # odstranimo stolpec s številom prebivalcev
 tabela_zemljevid <- tabela_zemljevid[, c(1:4,6)]
+
 
 #-----------------------------------------------------------------------
 

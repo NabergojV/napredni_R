@@ -1,0 +1,12 @@
+name: napredni_R
+title: napredni_R
+username:
+account: vernab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 851700
+bundleId: 1999052
+url: https://vernab.shinyapps.io/napredni_R/
+when: 1554849700.47076
+asMultiple: FALSE
+asStatic: FALSE

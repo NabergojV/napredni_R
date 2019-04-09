@@ -1,4 +1,5 @@
 # Uvoz potrebnih knjižnic
+source("lib.R")
 library(sp)
 library(maptools)
 library(digest)

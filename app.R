@@ -1,13 +1,9 @@
-library(shiny)
-library(ggplot2)
-library(shinythemes)
-library(shinyWidgets)
-library(shinyjs)
-library(DT)
 
+source("lib.R")
 source("uvoz_podatkov_odpadki.R")
 source("tema.R")
-source("uvozi_zemljevid.R", encoding = "UTF-8")
+source("uvozi.zemljevid.R", encoding = "UTF-8")
+
 
 ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
                 
@@ -135,11 +131,13 @@ server <- function(input, output,session) {
   # drugi tab
   
   output$zemljevid_regije <- renderPlot({
+    
     zemljevid <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
                                  "SVN_adm1", encoding = "UTF-8")
     
     zemljevid@data[["NAME_1"]] <- sapply(zemljevid@data[["NAME_1"]], 
                                          function(x) gsub("š", "s", x))
+    
     
     zem12 <- zemljevid
     

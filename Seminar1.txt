@@ -1,3 +1,6 @@
 Avtorici: Veronika Nabergoj in Marina Sirk
 
 Povezava do spletne aplikacije: http://marinas.shinyapps.io/odpadki_napredni_r
+
+Opomba: na objavljeni aplikaciji zemljevid ne dela, ko pa je 
+aplikacija zagnana v rstudiu ni nobenih problemov.
