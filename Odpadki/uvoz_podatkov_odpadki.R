@@ -2,11 +2,6 @@ library(knitr)
 library(dplyr)
 library(ggplot2)
 library(plyr)
-#library(gsubfn)
-#library(rvest)
-#library(XML)
-#library(readr)
-
 
 # uvoz tabele stevilo prebivalcev po regijah
 
@@ -72,7 +67,7 @@ nastanek_odpadkov <- unique(odpadki_vrste$Nastanek)
 odpadki_vrste <- merge(odpadki_vrste, preb_slo, by = c("Leto"))
 
 # dodamo stolpec kolicina smeti (v kilogramih) na prebivalca
-odpadki_vrste$"Kolicina_kg/Prebivalec" <- round(odpadki_vrste$Kolicina_tona*1000/odpadki_vrste$Stevilo, 6)
+odpadki_vrste$"Kolicina_kg/Prebivalec" <- round(odpadki_vrste$Kolicina_tona*1000/odpadki_vrste$Stevilo, 4)
 
 # odstranimo stolpec s številom prebivalcev
 odpadki_vrste <- odpadki_vrste[, c(1:4,6)]

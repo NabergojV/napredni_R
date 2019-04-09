@@ -8,17 +8,16 @@ library(DT)
 
 source("uvoz_podatkov_odpadki.R")
 source("tema.R")
-source("lib/uvozi_zemljevid.r", encoding = "UTF-8")
+source("lib/uvozi_zemljevid.R", encoding = "UTF-8")
 
-# Define UI for application that draws a histogram
 ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
                 
-                titlePanel("Prikaz količine odpadkov v Sloveniji skozi leta in regije"),
+                titlePanel("Prikaz količine odpadkov v Sloveniji skozi leta glede na vrsto in regije"),
                 
                 tabsetPanel(
                   tabPanel("Odpadki po vrstah", icon = icon('trash'),
                            # h2("blue tab", style='color:blue'),
-                           # p("text is is in gold" , style ="font-weight:bold; color:gold"),
+                           # p("Izberi si parametre po želji in si oglej tabelo ali graf." , style ="font-weight:bold; color:#4682B4"),
                            sidebarLayout(
                              sidebarPanel(width=3,
                                sliderInput("leto_vrste", "Leto:",
@@ -123,12 +122,8 @@ server <- function(input, output,session) {
       tab <- tabela_vrste[order(tabela_vrste$'Kolicina_kg/Prebivalec', decreasing = TRUE), c(1,2,3,5)]
       tab
     
-    
-    
     DT:::datatable(data=tab,rownames = FALSE,options = list(autoWidth = TRUE)) %>% 
-      formatStyle(columns = colnames(tab), 
-                  background = "#F5F5DC", 
-                  color = "black")
+      formatStyle(columns = colnames(tab), background = "#F5F5DC", color = "black")
     
   }) 
   
@@ -150,8 +145,6 @@ server <- function(input, output,session) {
     zem12 <- zemljevid
     
     tabela_leto <- tabela_zemljevid %>% filter(Leto == input$leto1)
-    
-    #zem12 <- preuredi(tabela_leto, zem12, "NAME_1")
     
     zem12$Kolicina_tona <- tabela_leto$Kolicina_tona
     zem12$'Kolicina_kg/Prebivalec' <- tabela_leto$'Kolicina_kg/Prebivalec'
@@ -196,9 +189,7 @@ server <- function(input, output,session) {
         formatStyle(columns = colnames(tab1), target = "cell")
       
       DT:::datatable(data=tab1,rownames = FALSE,options = list(autoWidth = TRUE)) %>% 
-        formatStyle(columns = colnames(tab1), 
-                    background = "#F5F5DC", 
-                    color = "black")
+        formatStyle(columns = colnames(tab1), background = "#F5F5DC", color = "black")
       
   })
   
@@ -243,9 +234,9 @@ server <- function(input, output,session) {
                  ),
                  mainPanel(
                    fluidRow(
-                     column(7,plotOutput("zemljevid_regije",height = "450px",width = "650")),
-                     column(5,DT::dataTableOutput("tabela_regije"), 
-                            style="color: #fff; background-color: #4682B4; border-color: #2e6da4")
+                     column(5,DT::dataTableOutput("tabela_regije"),
+                            style="color: #fff; background-color: #4682B4; border-color: #2e6da4"),
+                     column(6,plotOutput("zemljevid_regije",height = "470px",width = "650"))
                    )
                  ))
                
