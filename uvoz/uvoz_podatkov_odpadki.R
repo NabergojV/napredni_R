@@ -1,10 +1,10 @@
-source("lib.R")
-source("uvozi_zemljevid.R", encoding = "UTF-8")
+source("uvoz/lib.R")
+source("uvoz/uvozi_zemljevid.R", encoding = "UTF-8")
 
 # uvoz tabele stevilo prebivalcev po regijah
 
 stolpci_preb <- c("Regija", "Leto", "Stevilo")
-prebivalci <- read.csv2("stevilo_prebivalcev.csv", 
+prebivalci <- read.csv2("podatki/stevilo_prebivalcev.csv", 
                          skip = 2,
                          header = FALSE,
                          col.names = stolpci_preb,
@@ -42,7 +42,7 @@ preb_reg <- preb_reg[order(preb_reg$Regija),]
 # uvoz tabele vrste odpadkov
 
 stolpci1 <- c("Vrsta", "Nastanek", "Leto", "Kolicina_tona")
-odpadki_vrste <- read.csv2("vrste_odpadkov.csv", 
+odpadki_vrste <- read.csv2("podatki/vrste_odpadkov.csv", 
                            skip = 3,
                            na.strings = "-",
                            header = FALSE,
@@ -75,7 +75,7 @@ odpadki_vrste <- odpadki_vrste[, c(1:4,6)]
 # uvoz tabele odpadki po regijah
 
 stolpci2 <- c("Regija", "Leto", "Odpadki", "Kolicina_tona")
-odpadki_regije <- read.csv2("odpadki_regije.csv", 
+odpadki_regije <- read.csv2("podatki/odpadki_regije.csv", 
                            skip = 3, 
                            header = FALSE,
                            na.strings = "-",
@@ -125,21 +125,40 @@ tabela_zemljevid$"Kolicina_kg/Prebivalec" <- round(tabela_zemljevid$Kolicina_ton
 # odstranimo stolpec s številom prebivalcev
 tabela_zemljevid <- tabela_zemljevid[, c(1:4,6)]
 
+#-----------------------------------------------------------------------
+
+# Uvozimo zemljevid
+
+gpclibPermit()
+
+zemljevid <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
+                             "SVN_adm1", encoding = "UTF-8")
+
+zemljevid@data[["NAME_1"]] <- sapply(zemljevid@data[["NAME_1"]], 
+                                     function(x) gsub("š", "s", x))
+
+
+pretvori.zemljevid <- function(zemljevid) {
+  fo <- fortify(zemljevid)
+  data <- zemljevid@data
+  data$id <- as.character(0:(nrow(data)-1))
+  return(inner_join(fo, data, by="id"))
+}
 
 #-----------------------------------------------------------------------
 
 # uvoz tabele odpadki EU
-
-stolpci3 <- c("Leto","Drzava","UNIT","Nevarnost","Vrsta","NACE_R2","Kolicina")
-odpadki_EU <- read.csv2("odpadki_EU.csv", 
-                        header = TRUE,
-                        sep = ",",
-                        na.strings = ":",
-                        col.names = stolpci3,
-                        fileEncoding = "UTF-8")[,-c(3,6)]
-
-# odpravimo vejice pri tisočicah
-odpadki_EU$Kolicina <- as.numeric(gsub(",", "", odpadki_EU$Kolicina, fixed = TRUE)) 
+# 
+# stolpci3 <- c("Leto","Drzava","UNIT","Nevarnost","Vrsta","NACE_R2","Kolicina")
+# odpadki_EU <- read.csv2("odpadki_EU.csv", 
+#                         header = TRUE,
+#                         sep = ",",
+#                         na.strings = ":",
+#                         col.names = stolpci3,
+#                         fileEncoding = "UTF-8")[,-c(3,6)]
+# 
+# # odpravimo vejice pri tisočicah
+# odpadki_EU$Kolicina <- as.numeric(gsub(",", "", odpadki_EU$Kolicina, fixed = TRUE)) 
 
 
 

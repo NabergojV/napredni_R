@@ -1,8 +1,8 @@
 
 source("lib.R")
-source("uvoz_podatkov_odpadki.R")
+source("uvoz/uvoz_podatkov_odpadki.R")
 source("tema.R")
-source("uvozi_zemljevid.R", encoding = "UTF-8")
+source("uvoz/uvozi_zemljevid.R", encoding = "UTF-8")
 
 
 ui <- fluidPage(theme = shinytheme("superhero"), useShinyjs(),
@@ -131,20 +131,6 @@ server <- function(input, output,session) {
   # drugi tab
   
   output$zemljevid_regije <- renderPlot({
-    
-    zemljevid <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
-                                 "SVN_adm1", encoding = "UTF-8")
-    
-    zemljevid@data[["NAME_1"]] <- sapply(zemljevid@data[["NAME_1"]], 
-                                         function(x) gsub("š", "s", x))
-    
-    
-    pretvori.zemljevid <- function(zemljevid) {
-      fo <- fortify(zemljevid)
-      data <- zemljevid@data
-      data$id <- as.character(0:(nrow(data)-1))
-      return(inner_join(fo, data, by="id"))
-    }
     
     zem12 <- zemljevid
     
