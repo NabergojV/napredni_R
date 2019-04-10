@@ -5,8 +5,8 @@ account: vernab
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 851700
-bundleId: 1999814
+bundleId: 2000195
 url: https://vernab.shinyapps.io/napredni_R/
-when: 1554883978.92087
+when: 1554894835.57112
 asMultiple: FALSE
 asStatic: FALSE
