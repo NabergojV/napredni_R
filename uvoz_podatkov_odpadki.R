@@ -1,5 +1,5 @@
 source("lib.R")
-source("uvozi.zemljevid.R", encoding = "UTF-8")
+source("uvozi_zemljevid.R", encoding = "UTF-8")
 
 # uvoz tabele stevilo prebivalcev po regijah
 
